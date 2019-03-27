@@ -214,15 +214,21 @@ input[type=submit] {
 
 @media only screen and (max-width: 640px){
   .container, #logo, nav {
-    width: 600px;
+    width: 100%;
     float: left;
   }
+  nav{
+    text-align: center;
+  }
+  .work {
+    width: 100%;
+  }
   p {
-    width: 580px;
+    width: 95%;
     padding-right: 20px;
   }
   .main-section {
-    width: 600px;
+    width: 100%;
   }
   h1, h2, h3 {
     position: static
@@ -230,34 +236,33 @@ input[type=submit] {
 }
 @media only screen and (max-width: 768px){
   .container {
-    width: 730px;
+    width: 100%;
     margin: 8px 0;
   }
   nav {
-    width: 730px;
     float: left;
+    text-align: center;
   }
   p {
-    width: 710px;
+    width: 95%;
     padding-right: 20px;
   }
   .main-section {
-    width: 724px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 980px){
   .container {
-    width: 980px;
+    width: 100%;
   }
   nav {
-    width: 90%;
-    padding-right: 200px;
+    padding-right: 5%;
   }
   p {
-    width: 920px;
+    width: 95%;
     padding-right: 20px;
   }
   .main-section {
-    width: 940px;
+    width: 100%;
   }
 }
